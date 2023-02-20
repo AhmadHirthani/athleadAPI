@@ -1,0 +1,31 @@
+{
+  "name": "athlead_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adahdooh/athlead_api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adahdooh/athlead_api/issues"
+  },
+  "homepage": "https://github.com/adahdooh/athlead_api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "firebase": "^9.17.1",
+    "firebase-admin": "^11.5.0",
+    "firebase-auth": "^0.1.2",
+    "nodemon": "^2.0.20"
+  }
+}
